@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>practice</title>
+</head>
+<body>
+<!--//ex1-->
+<!--<h2>JavaScript Loops</h2>-->
+<!--<p id="demo"></p>-->
+<!--<script>-->
+<!--  let text = "";-->
+<!--  let i;-->
+<!--  for(i=0; i<5; i++){-->
+<!--    text += 'the number is'+ i + "<br>"-->
+<!--  }-->
+<!--document.getElementById("demo").innerHTML=text-->
+<!--</script>-->
+
+<table border='1' width='300' cellpadding='0' cellspacing='3'>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>2</td>
+        <td>4</td>
+        <td>6</td>
+        <td>8</td>
+        <td>10</td>
+        <td>12</td>
+        <td>14</td>
+        <td>16</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+        <td>12</td>
+        <td>15</td>
+        <td>18</td>
+        <td>21</td>
+        <td>24</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+        <td>16</td>
+        <td>20</td>
+        <td>24</td>
+        <td>28</td>
+        <td>32</td>
+        <td>36</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>5</td>
+        <td>10</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+        <td>30</td>
+        <td>35</td>
+        <td>40</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>6</td>
+        <td>12</td>
+        <td>18</td>
+        <td>24</td>
+        <td>30</td>
+        <td>36</td>
+        <td>42</td>
+        <td>48</td>
+        <td>54</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>7</td>
+        <td>14</td>
+        <td>21</td>
+        <td>28</td>
+        <td>35</td>
+        <td>42</td>
+        <td>49</td>
+        <td>56</td>
+        <td>63</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>8</td>
+        <td>16</td>
+        <td>24</td>
+        <td>32</td>
+        <td>40</td>
+        <td>48</td>
+        <td>56</td>
+        <td>64</td>
+        <td>72</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>9</td>
+        <td>18</td>
+        <td>27</td>
+        <td>36</td>
+        <td>45</td>
+        <td>54</td>
+        <td>63</td>
+        <td>72</td>
+        <td>81</td>
+    </tr>
+</table>
+
+
+<script>
+
+    // let into;
+    // into =" <table border='1' width='300' cellspacing='0' cellpadding='3'>"
+    //  for(i=0; i<10; i++){
+    //      into= into+ "tr";
+    //      for(j = 0; j<=10; j++){
+    //          into= into+"<td>" + i*j + "</td>"
+    //      }
+    //         into = into + "</tr>";
+    //  }
+    //     into = into + "</table>";
+    //     document.write(into)
+
+
+    let into;
+    into = " <table border ='1' width='300' cellpadding='0'  cellspacing='3'>"
+    for (i = 0; i < 10; i++) {
+        into = into + "<tr>"
+        for (j = 0; j < 10; j++) {
+            into = into + "<td>" + i * j + "</td>"
+        }
+        into = into + "</tr>"
+    }
+    into = into + "</table>"
+    // console.log(into)
+    document.write(into)
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Bang Cuu Chuong</title>
+</head>
+<body>
+<script>
+let into, i, j;
+into =" <table style='width: 1000px; height: 500px; background-color: wheat' border='1' width='300' cellspacing='0' cellpadding='3'>"
+  for(i=1; i<=9; i++){
+  into= into+ "<tr>";
+    for(j=1; j<=15; j++){
+    into= into+"<td>" + j+"x"+ +i+"="+ j*i + "</td>"
+    }
+    into = into + "</tr>";
+  }
+  into = into + "</table>";
+document.write(into)
+
+
+</script>
+</body>
+</html>
